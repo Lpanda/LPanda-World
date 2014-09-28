@@ -7,14 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Infomer.h"
+#import "Observer.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Observer *observer = [[Observer alloc]init];
+        NSLog(@"%@",[observer description]);
+        
+        Infomer *infomer = [[Infomer alloc]init];
+        [infomer sendNotifi];
         
     }
     return 0;

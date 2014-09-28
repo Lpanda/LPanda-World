@@ -10,6 +10,10 @@
 		18143FD419D7BE2B00E24B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18143FD319D7BE2B00E24B01 /* Foundation.framework */; };
 		18143FD719D7BE2B00E24B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18143FD619D7BE2B00E24B01 /* main.m */; };
 		18143FDB19D7BE2B00E24B01 /* SimpleNotifiCeneter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18143FDA19D7BE2B00E24B01 /* SimpleNotifiCeneter.1 */; };
+		18143FE319D7BE7900E24B01 /* NotifiCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18143FE219D7BE7900E24B01 /* NotifiCenter.m */; };
+		18143FE619D7BEB500E24B01 /* NotifiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18143FE519D7BEB500E24B01 /* NotifiObject.m */; };
+		18143FEB19D7BF0200E24B01 /* Infomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18143FE819D7BF0200E24B01 /* Infomer.m */; };
+		18143FEC19D7BF0200E24B01 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18143FEA19D7BF0200E24B01 /* Observer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,14 @@
 		18143FD619D7BE2B00E24B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18143FD919D7BE2B00E24B01 /* SimpleNotifiCeneter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNotifiCeneter-Prefix.pch"; sourceTree = "<group>"; };
 		18143FDA19D7BE2B00E24B01 /* SimpleNotifiCeneter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SimpleNotifiCeneter.1; sourceTree = "<group>"; };
+		18143FE119D7BE7900E24B01 /* NotifiCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifiCenter.h; sourceTree = "<group>"; };
+		18143FE219D7BE7900E24B01 /* NotifiCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifiCenter.m; sourceTree = "<group>"; };
+		18143FE419D7BEB500E24B01 /* NotifiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifiObject.h; sourceTree = "<group>"; };
+		18143FE519D7BEB500E24B01 /* NotifiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifiObject.m; sourceTree = "<group>"; };
+		18143FE719D7BF0200E24B01 /* Infomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Infomer.h; sourceTree = "<group>"; };
+		18143FE819D7BF0200E24B01 /* Infomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Infomer.m; sourceTree = "<group>"; };
+		18143FE919D7BF0200E24B01 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		18143FEA19D7BF0200E24B01 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +85,15 @@
 		18143FD519D7BE2B00E24B01 /* SimpleNotifiCeneter */ = {
 			isa = PBXGroup;
 			children = (
+				18143FE719D7BF0200E24B01 /* Infomer.h */,
+				18143FE819D7BF0200E24B01 /* Infomer.m */,
+				18143FE919D7BF0200E24B01 /* Observer.h */,
+				18143FEA19D7BF0200E24B01 /* Observer.m */,
 				18143FD619D7BE2B00E24B01 /* main.m */,
+				18143FE119D7BE7900E24B01 /* NotifiCenter.h */,
+				18143FE219D7BE7900E24B01 /* NotifiCenter.m */,
+				18143FE419D7BEB500E24B01 /* NotifiObject.h */,
+				18143FE519D7BEB500E24B01 /* NotifiObject.m */,
 				18143FDA19D7BE2B00E24B01 /* SimpleNotifiCeneter.1 */,
 				18143FD819D7BE2B00E24B01 /* Supporting Files */,
 			);
@@ -139,7 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18143FEB19D7BF0200E24B01 /* Infomer.m in Sources */,
 				18143FD719D7BE2B00E24B01 /* main.m in Sources */,
+				18143FEC19D7BF0200E24B01 /* Observer.m in Sources */,
+				18143FE319D7BE7900E24B01 /* NotifiCenter.m in Sources */,
+				18143FE619D7BEB500E24B01 /* NotifiObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
