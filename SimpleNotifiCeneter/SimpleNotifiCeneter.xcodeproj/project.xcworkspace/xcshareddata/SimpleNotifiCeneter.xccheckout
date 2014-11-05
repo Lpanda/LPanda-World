@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F71529E3-DC33-4079-9AC1-507002DFFB69</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SimpleNotifiCeneter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>39F82F9BED6888877357F4B6142D8E644551CC5C</key>
+		<string>https://github.com/Lpanda/LPanda-World.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SimpleNotifiCeneter/SimpleNotifiCeneter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>39F82F9BED6888877357F4B6142D8E644551CC5C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Lpanda/LPanda-World.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>39F82F9BED6888877357F4B6142D8E644551CC5C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>39F82F9BED6888877357F4B6142D8E644551CC5C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LPanda-World</string>
+		</dict>
+	</array>
+</dict>
+</plist>

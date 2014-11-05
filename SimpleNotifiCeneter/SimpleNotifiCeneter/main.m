@@ -15,6 +15,8 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
+        NSLog(@"-------Pro Begin-------");
+        
         Observer *observer = [[Observer alloc]init];
         NSLog(@"%@",[observer description]);
         
